@@ -14,6 +14,15 @@
   }
 }
 
+.nav-item{
+ @apply bg-blue-700 p-2 px-5 rounded-md opacity-75 
+ hover:opacity-100 cursor-pointer duration-300
+}
+
+.btn-padrao{
+  @apply hover:opacity-100 opacity-80 duration-300 p-2 px-5 mt-2 rounded w-32
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
